@@ -6,9 +6,14 @@ function flip(){
     console.log(random)
     
     if(random == 0){
-        resultado.value = text1
+        resultado.value = JAJA(text1);
     }else if(random == 1){
-        resultado.value = text
+        resultado.value = JAJA(text);
     }
     
+}
+
+function JAJA(str)
+{
+    return str.split("").reverse().join("");
 }
